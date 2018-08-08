@@ -1,4 +1,4 @@
-# Sinatra Activerecord Setup
+<!-- # Sinatra Activerecord Setup
 
 
 ## Objectives
@@ -146,7 +146,7 @@ Now, run the migration from the terminal with `rake db:migrate`.
 rake db:migrate SINATRA_ENV=development
 ```
 
-Why add `SINATRA_ENV=development`, you might ask? Well, remember the top line of `config/environment.rb`? It's telling Sinatra that it should use the "development" environment for both `shotgun` and the testing suite. Therefore, we want to make sure our migrations run on the same environment as well, and specifying `SINATRA_ENV=development` allows us to do that. 
+Why add `SINATRA_ENV=development`, you might ask? Well, remember the top line of `config/environment.rb`? It's telling Sinatra that it should use the "development" environment for both `shotgun` and the testing suite. Therefore, we want to make sure our migrations run on the same environment as well, and specifying `SINATRA_ENV=development` allows us to do that.
 
 You should see the following output:
 
@@ -173,4 +173,4 @@ end
 ```
 While the rollback (`down`) method is not included, it's implicit in the change method. Rolling back the database would work in exactly the same way as using the `down` method.
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-activerecord-setup'>ActiveRecord Setup in Sinatra</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-activerecord-setup'>ActiveRecord Setup in Sinatra</a> on Learn.co and start learning to code for free.</p> -->
